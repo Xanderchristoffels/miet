@@ -4,42 +4,49 @@ body{
 }
 
 #mietDebay4Pcs{
-    width: 200px;
-    /* position: absolute; */
+    width: 100%;
 }
 #mietDebay7Pcs{
-    width: 175px;
-    margin-left: 1px;
-    margin-top: 5px;
-    position: absolute;
+    width: 100%;
 }
 #mietDebay1Pcs{
-    width: 210px;
-    margin-left: -0px;
-    margin-top: 230px;
-    position: absolute;
+    width: 100%;
 }
 #mietDebay3Pcs{
-    width: 410px;
-    margin-left: -200px;
-    margin-top: 300px;
-    position: absolute;
+    width: 100%;
 }
 #mietDebay2Pcs{
-    width: 410px;
-    margin-left: -200px;
-    margin-top: 572px;
-    position: absolute;
+    width: 100%;
 }
 #mietDebay5Pcs{
-    width: 410px;
-    margin-left: -200px;
-    margin-top: 800px;
-    position: absolute;
+    width: 100%;
 }
 #mietDebay8Pcs{
-    width: 410px;
-    margin-left: -200px;
-    margin-top: 1070px;
-    position: absolute;
+    width: 100%;
+}
+
+
+
+
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #b9b9b9 #ffffff;
+}
+
+*::-webkit-scrollbar {
+    width: 14px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #c3c3c3;
+    border-radius: 20px;
+    border: 3px none #f2f2f2;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #adadad;
 }
