@@ -1,0 +1,192 @@
+body{
+    background-color: #e7e7d99c;
+    margin: 0px;
+}
+
+.header{
+    padding: 10px 16px;
+    background: #d1d1ae59;
+    color: #000000;
+    font-family: roboto, arial, helvetica, sans-serif, verdana;
+    font-size: 32px;
+    text-align: center;
+    
+}
+  
+  .content{
+    padding: 16px;
+  }
+  
+  .sticky{
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  .sticky + .content{
+    padding-top: 102px;
+  }
+
+#title{
+    border: none; 
+    text-align: center;
+}
+
+
+#mdb1Img{
+    border: 4px solid black;
+    border-radius: 100%;
+    width: 200px;
+    margin-top: -40px;
+    padding: 0px;
+    text-align: center;
+}
+#mdb1Img:hover{
+    cursor: pointer;
+}
+#mdbImg{
+    border: none;
+    text-align: center;
+}
+
+
+#addressIcon{
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#addressText{
+    font-family: roboto, arial, helvetica, verdana, sans-serif;
+    margin-left: 120px;
+    margin-top: -80px;
+    font-size: 25px;
+}
+
+#emailIcon{
+    width: 75px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#emailText{
+    font-family: roboto, arial, helvetica, verdana, sans-serif;
+    margin-left: 120px;
+    margin-top: -70px;
+    font-size: 25px;
+}
+
+#phoneIcon{
+    width: 85px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+#phoneText{
+    font-family: roboto, arial, helvetica, verdana, sans-serif;
+    margin-left: 120px;
+    margin-top: -80px;
+    font-size: 25px;
+}
+
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e7e7d9;
+    color: black;
+    font-family: arial, roboto, verdana, helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+
+@media screen and (max-height: 915px) {
+    #addressIcon{
+        width: 35px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    #addressText{
+        font-family: roboto, arial, helvetica, verdana, sans-serif;
+        margin-left: 90px;
+        margin-top: -55px;
+        font-size: 18px;
+    }
+
+    #emailIcon{
+        width: 45px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    #emailText{
+        font-family: roboto, arial, helvetica, verdana, sans-serif;
+        margin-left: 90px;
+        margin-top: -48px;
+        font-size: 18px;
+    }
+
+    #phoneIcon{
+        width: 50px;
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+    #phoneText{
+        font-family: roboto, arial, helvetica, verdana, sans-serif;
+        margin-left: 90px;
+        margin-top: -55px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .footer{
+        font-size: 0px;
+    }
+}
+
+@media screen and (max-height: 630px) {
+    #mdb1Img{
+        width: 0px;
+        border: none;
+    }
+}
+
+
+@media screen and (min-height: 1050px) {
+    #addressIcon{
+        width: 70px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    #addressText{
+        font-family: roboto, arial, helvetica, verdana, sans-serif;
+        margin-left: 120px;
+        margin-top: -95px;
+        font-size: 30px;
+    }
+    
+    #emailIcon{
+        width: 85px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    #emailText{
+        font-family: roboto, arial, helvetica, verdana, sans-serif;
+        margin-left: 120px;
+        margin-top: -80px;
+        font-size: 30px;
+    }
+    
+    #phoneIcon{
+        width: 95px;
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+    #phoneText{
+        font-family: roboto, arial, helvetica, verdana, sans-serif;
+        margin-left: 120px;
+        margin-top: -90px;
+        font-size: 30px;
+    }
+}
